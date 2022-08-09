@@ -3,7 +3,6 @@
     background-color: #d61298;
     color: #ffffff;
     height: 35px;
-    margin-top:-60px;
     width: 120px;
     border-radius: 5px;
     border-style: none;
@@ -14,9 +13,10 @@ body{
 }
 .hero{
     background-image: url(./assets/bg.png);
-    margin-top: -70px;
+    margin-top: -260px;
+    margin-bottom: -20px;
     width: 1500px;
-    height: 800px;
+    height: 700px;
     margin-left: -20px;
 }
 .button-large{
@@ -32,9 +32,13 @@ body{
 }
 .logo{
     margin-left: 70px;
-    margin-top: 15px;
+    margin-top: 5px;
     height: auto;
     width: 100px;
+    float: left;
+  padding: 0 10px;
+  font-size: 14px;
+  border-right: 2px #ffffff solid;
 }
 .list{
     display: flex;
@@ -42,8 +46,8 @@ body{
     justify-content: space-around;
     max-width: 600px;
     margin-left: 250px;
-    margin-top: -30px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: -15px;
     list-style-type: none;
     color: #ffffff;
 }
@@ -58,7 +62,8 @@ body{
 }
 .hero-heading{
     font-size: 80px;
-    margin-top: 30px;
+    margin-top: 290px;
+    margin-bottom: 90px;
     margin-left: 400px;
     margin-right: 400px;
     color: #ffffff;
